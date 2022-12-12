@@ -4,11 +4,6 @@
 import sys
 import math
 
-# Постоянная Эйлера.
-EULER = 0.5772156649015328606
-# Точность вычислений.
-EPS = 1e-10
-
 if __name__ == '__main__':
     x = float(input("Value of x? "))
     if x == 0:
@@ -21,4 +16,4 @@ if __name__ == '__main__':
         S += a
         n += 1
 
-print(f"Ei({x}) = {EULER + math.log(math.fabs(x)) + S}")
+print(f"Shi({x})={S}")
